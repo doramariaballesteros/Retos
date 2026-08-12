@@ -45,7 +45,6 @@ Su respuesta debe incluir:
 
 - La **expresión matemática** que relaciona $y[n]$ con $x[n]$.
 - Una explicación breve del **procedimiento utilizado para identificar la transformación**.
-- La identificación de las operaciones de **compresión, dilatación, inversión y/o desplazamiento**, según corresponda.
 - Una **verificación en Python** que demuestre que la transformación propuesta reproduce correctamente la señal de salida observada.
 
 > 💡 **Recuerden:** el objetivo no es encontrar la respuesta probando transformaciones en Python.  
