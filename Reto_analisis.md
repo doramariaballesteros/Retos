@@ -50,6 +50,30 @@ Su respuesta debe incluir:
 > 💡 **Recuerden:** el objetivo no es encontrar la respuesta probando transformaciones en Python.  
 > **Primero formulen una hipótesis y después utilicen Python para verificarla.**
 
+## 📋 Rúbrica de evaluación
+
+### 🎯 Criterio 1. Transformación de la variable independiente
+
+**Implementa y evalúa técnicas de manipulación temporal utilizando Python, para el análisis y la solución de problemas de transformación de la variable independiente.**
+
+| Acción observable | Insuficiente **(0)** | En proceso **(250)** | Sobresaliente **(500)** | Peso |
+|---|---|---|---|---:|
+| **Explica conceptual y matemáticamente el procedimiento que permite deducir la transformación de la variable independiente.** | **No explica** el razonamiento conceptual y matemático o el razonamiento presentado es incorrecto. | **Explica parcialmente** el razonamiento conceptual y matemático, pero **no deduce correctamente la transformación de la variable independiente**. | **Explica correctamente** el razonamiento conceptual y matemático y **deduce correctamente la transformación de la variable independiente**. | **65 %** |
+| **Implementa en Python la transformación de la variable independiente y verifica el resultado.** | **No implementa** el código en Python o el código presentado es incorrecto. | **Implementa parcialmente** el código en Python, pero la solución está incompleta. | **Implementa correcta y completamente** el código en Python y **verifica correctamente** la transformación obtenida. | **35 %** |
+
+### Cálculo de la nota
+
+La nota del desafío corresponde a la suma ponderada de las notas obtenidas en cada acción observable:
+
+$$
+\text{Nota Desafío 1}
+=
+0.65(\text{Explicación conceptual y matemática})
++
+0.35(\text{Implementación en Python})
+$$
+---------
+
 # 🧩 Desafío 2. ¿Qué sistema se encuentra dentro de la caja negra?
 
 Una señal discreta $x[n]$ ingresa a un **sistema LTI desconocido**. A la salida se obtiene la señal $y[n]$.
