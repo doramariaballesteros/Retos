@@ -120,4 +120,4 @@ La nota del desafío corresponde a la suma ponderada de las notas obtenidas en c
 **Nota Desafío 2 = 0.65 × (Explicación conceptual y matemática) + 0.35 × (Implementación en Python)**
 
 ---
-**La nota final del Reto es el promedio de los dos desafios.**
+**LA NOTA FINAL DEL RETO ES EL PROMEDIO DE LOS DOS DESAFÍOS.**
