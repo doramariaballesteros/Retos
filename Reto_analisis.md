@@ -65,13 +65,7 @@ Su respuesta debe incluir:
 
 La nota del desafío corresponde a la suma ponderada de las notas obtenidas en cada acción observable:
 
-$$
-\text{Nota Desafío 1}
-=
-0.65(\text{Explicación conceptual y matemática})
-+
-0.35(\text{Implementación en Python})
-$$
+**Nota Desafío 1 = 0.65 × (Explicación conceptual y matemática) + 0.35 × (Implementación en Python)**
 ---------
 
 # 🧩 Desafío 2. ¿Qué sistema se encuentra dentro de la caja negra?
