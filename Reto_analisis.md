@@ -72,7 +72,6 @@ Su respuesta debe incluir:
 
 - La **expresión matemática** de $h[n]$ y su correspondiente soporte temporal.
 - Una explicación breve del **procedimiento utilizado para identificarla**.
-- Una interpretación de cómo la superposición de muestras durante la convolución permite explicar la forma de $y[n]$.
 - Una **verificación en Python**, utilizando convolución discreta, que demuestre que la respuesta al impulso propuesta reproduce exactamente la señal de salida observada.
 
 > 💡 **Recuerden:** Python se utiliza para verificar la solución propuesta.  
