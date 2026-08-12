@@ -95,3 +95,45 @@ Su respuesta debe incluir:
 > 💡 **Recuerden:** Python se utiliza para verificar la solución propuesta.  
 > Primero analicen las señales $x[n]$ y $y[n]$ e identifiquen una posible $h[n]$; después comprueben su respuesta mediante convolución.
 
+# 🧩 Desafío 2. ¿Qué sistema se encuentra dentro de la caja negra?
+
+Una señal discreta $x[n]$ ingresa a un **sistema LTI desconocido**. A la salida se obtiene la señal $y[n]$.
+
+Se sabe que la relación entre la señal de entrada, la respuesta al impulso del sistema y la señal de salida está dada por:
+
+**y[n] = x[n] * h[n]**
+
+<p align="center">
+  <img src="Imagen_reto1_2.png" width="850">
+</p>
+
+A partir de las señales de entrada y salida:
+
+### ¿Cuál es la respuesta al impulso $h[n]$ del sistema?
+
+Su respuesta debe incluir:
+
+- La **expresión matemática** de $h[n]$, incluyendo sus amplitudes y soporte temporal.
+- Una **explicación conceptual y matemática** del procedimiento que permite deducir $h[n]$ mediante convolución de señales discretas.
+- Una **implementación en Python** de la convolución que permita verificar que la respuesta al impulso propuesta reproduce correctamente la señal de salida observada.
+
+> 💡 **Recuerden:** Python se utiliza como herramienta de **verificación**. Primero analicen las señales y deduzcan la respuesta al impulso $h[n]$; posteriormente utilicen Python para comprobar su solución.
+
+---
+
+## 📋 Rúbrica de evaluación
+
+### 🎯 Criterio 2. Convolución de señales discretas
+
+**Implementa y evalúa técnicas de convolución de señales discretas utilizando Python, para el análisis y la solución de problemas de convolución de señales discretas.**
+
+| Acción observable | Insuficiente **(0)** | En proceso **(250)** | Sobresaliente **(500)** | Peso |
+|---|---|---|---|---:|
+| **Explica conceptual y matemáticamente el procedimiento que permite deducir la respuesta al impulso $h[n]$ mediante convolución de señales discretas.** | **No explica** el razonamiento conceptual y matemático o el razonamiento presentado es incorrecto. | **Explica parcialmente** el razonamiento conceptual y matemático, pero **no deduce correctamente la respuesta al impulso $h[n]$**. | **Explica correctamente** el razonamiento conceptual y matemático y **deduce correctamente la respuesta al impulso $h[n]$**. | **65 %** |
+| **Implementa en Python la convolución de señales discretas y verifica el resultado.** | **No implementa** el código en Python o el código presentado es incorrecto. | **Implementa parcialmente** el código en Python, pero la solución está incompleta. | **Implementa correcta y completamente** el código en Python y **verifica correctamente** que la respuesta al impulso obtenida reproduce la señal de salida. | **35 %** |
+
+### Cálculo de la nota
+
+La nota del desafío corresponde a la suma ponderada de las notas obtenidas en cada acción observable:
+
+**Nota Desafío 2 = 0.65 × (Explicación conceptual y matemática) + 0.35 × (Implementación en Python)**
