@@ -34,7 +34,7 @@ Su misión será **descubrir qué ocurrió dentro de cada caja negra y verificar
 Una señal discreta $x[n]$ ingresa a una **caja negra** que realiza una transformación desconocida de la variable independiente. A la salida se obtiene la señal $y[n]$.
 
 <p align="center">
-  <img src="FIGURA_CAJA_NEGRA_1.png" width="800">
+  <img src="Imagen_reto1_1.png" width="850">
 </p>
 
 A partir de las señales de entrada y salida:
