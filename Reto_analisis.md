@@ -100,30 +100,6 @@ Su respuesta debe incluir:
 > 💡 **Recuerden:** Python se utiliza para verificar la solución propuesta.  
 > Primero analicen las señales $x[n]$ y $y[n]$ e identifiquen una posible $h[n]$; después comprueben su respuesta mediante convolución.
 
-# 🧩 Desafío 2. ¿Qué sistema se encuentra dentro de la caja negra?
-
-Una señal discreta $x[n]$ ingresa a un **sistema LTI desconocido**. A la salida se obtiene la señal $y[n]$.
-
-Se sabe que la relación entre la señal de entrada, la respuesta al impulso del sistema y la señal de salida está dada por:
-
-**y[n] = x[n] * h[n]**
-
-<p align="center">
-  <img src="Imagen_reto1_2.png" width="850">
-</p>
-
-A partir de las señales de entrada y salida:
-
-### ¿Cuál es la respuesta al impulso $h[n]$ del sistema?
-
-Su respuesta debe incluir:
-
-- La **expresión matemática** de $h[n]$, incluyendo sus amplitudes y soporte temporal.
-- Una **explicación conceptual y matemática** del procedimiento que permite deducir $h[n]$ mediante convolución de señales discretas.
-- Una **implementación en Python** de la convolución que permita verificar que la respuesta al impulso propuesta reproduce correctamente la señal de salida observada.
-
-> 💡 **Recuerden:** Python se utiliza como herramienta de **verificación**. Primero analicen las señales y deduzcan la respuesta al impulso $h[n]$; posteriormente utilicen Python para comprobar su solución.
-
 ---
 
 ## 📋 Rúbrica de evaluación
