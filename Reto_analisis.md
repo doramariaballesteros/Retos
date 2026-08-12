@@ -6,17 +6,22 @@
 
 ## ⏱️ Duración
 
-[Por definir]
+**1 hora**
+
+Tiempo sugerido: **25 minutos por desafío** y **10 minutos para revisión y entrega**.
 
 ## 👥 Modalidad
 
-Trabajo por parejas.
+**Trabajo por parejas.**
 
-Cada grupo deberá entregar un **único archivo PDF** con las respuestas, incluyendo las evidencias técnicas solicitadas y las conclusiones correspondientes.
+Cada pareja deberá entregar un **único archivo PDF generado a partir del notebook (.ipynb) desarrollado**, que incluya, para cada desafío:
 
-> 📌 **Importante:** Python se utilizará como herramienta de **verificación**.  
-> Primero deberán analizar el problema y proponer una solución a partir de los conceptos estudiados en clase. Posteriormente, podrán utilizar Python para comprobar si su propuesta reproduce correctamente la señal observada.
-
+- La **solución matemática (respuesta)**.
+- La **explicación conceptual y matemática** del procedimiento utilizado para deducirla.
+- El **código en Python** utilizado para verificar la solución.
+- La **evidencia gráfica del resultado obtenido en Python**.
+  
+> 📌 **Importante:** Python se utiliza como herramienta de **verificación**. La solución debe deducirse primero a partir del análisis conceptual y matemático de las señales.
 ---
 
 ## Contexto
@@ -137,3 +142,6 @@ Su respuesta debe incluir:
 La nota del desafío corresponde a la suma ponderada de las notas obtenidas en cada acción observable:
 
 **Nota Desafío 2 = 0.65 × (Explicación conceptual y matemática) + 0.35 × (Implementación en Python)**
+
+---
+**La nota final del Reto es el promedio de los dos desafios.**
